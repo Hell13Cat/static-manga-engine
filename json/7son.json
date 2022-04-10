@@ -1,0 +1,18 @@
+{
+    "name":"Я перевоплотился в 7-го принца, так что я буду совершенствовать свою магию, как захочу",
+    "name_orig":" Tensei Shitara dai Nana Ouji dattanode, Kimamani Majutsu o Kiwamemasu",
+    "author":"Kenkyo na Circle",
+    "status_tl":"Продолжается",
+    "status_ti":"Выпускается",
+    "cover":"img/covers/7son.jpg",
+    "ch":[
+        {
+            "name":"Том 1 Глава 1 - Я реинкарнировал в 7-го принца",
+            "id":"7son_1"
+        },
+        {
+            "name":"Том 1 Глава 2 - Старший брат что-то замышляет",
+            "id":"7son_2"
+        }
+    ]
+}

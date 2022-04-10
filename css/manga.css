@@ -1,0 +1,64 @@
+.invis {
+    visibility: hidden;
+}
+.invis2 {
+    display: none;
+}
+.progress-page {
+    width: 100%;
+}
+
+.card-button-ch {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+    font-family: "Anime Ace v05";
+    font-size: 70%;
+    cursor: pointer;
+    opacity: 1;
+}
+.card-button-ch:hover {
+    opacity:0.8;
+}
+
+@media only screen and (min-width : 801px) {
+    .nav-button {
+        width: 35%;
+        height: 15%;
+    }
+    .nav-button-home {
+        width: 20%;
+        height: 15%;
+    }
+    .nav-button-fullscreen {
+        width: 10%;
+        height: 15%;
+    }
+    .card-button-ch {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+    
+@media only screen and (max-width : 800px) {
+    .nav-button {
+        width: 50%;
+        height: 30%;
+    }
+    .nav-button-home {
+        width: 50%;
+        height: 30%;
+    }
+    .nav-button-fullscreen {
+        width: 50%;
+        height: 30%;
+    }
+    .card-button-ch {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

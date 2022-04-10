@@ -1,0 +1,40 @@
+.progress-page {
+    width: 100%;
+}
+.cover {
+    width: 15%;
+    margin: 7px 7px 7px 0;
+}
+.invis {
+    display: none;
+}
+.card {
+    transition: 0.3s;
+    padding-left: 2px;
+    padding-top: 2px rgb(255, 255, 255, 1);
+    padding-bottom: 2px;
+    padding-right: 2px;
+    border: 2px solid white;
+    font-family: "Anime Ace v05";
+    font-size: 70%;
+}
+.carda {
+    transition: 0.3s;
+    padding-left: 2px;
+    padding-top: 2px rgb(255, 255, 255, 1);
+    padding-bottom: 2px;
+    padding-right: 2px;
+    border: 1px solid white;
+    font-family: "Anime Ace v05";
+    font-size: 100%;
+}
+.cardch {
+    transition: 0.3s;
+    padding-left: 2px;
+    padding-top: 2px rgb(255, 255, 255, 1);
+    padding-bottom: 2px;
+    padding-right: 2px;
+    border: 2px solid white;
+    font-family: "Anime Ace v05";
+    font-size: 70%;
+}
