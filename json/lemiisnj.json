@@ -1,0 +1,38 @@
+{
+    "name":"Досье лорда Эль-Меллоя II",
+    "name_orig":"Lord El-Melloi II-sei no Jikenbo",
+    "author":"SANDA Makoto&Type-Moon ",
+    "status_tl":"Заброшен",
+    "status_ti":"Выпускается",
+    "cover":"img/covers/lemiisnj.jpg",
+    "ch":[
+        {
+            "name":"Том 1 Глава 1 - Файл 1",
+            "id":"lemiisnj_1-1"
+        },
+        {
+            "name":"Том 1 Глава 1 - Файл 2",
+            "id":"lemiisnj_1-2"
+        },
+        {
+            "name":"Том 1 Глава 1 - Файл 3",
+            "id":"lemiisnj_1-3"
+        },
+        {
+            "name":"Том 1 Глава 1 - Файл 4",
+            "id":"lemiisnj_1-4"
+        },
+        {
+            "name":"Том 1 Глава 1 - Файл 5",
+            "id":"lemiisnj_1-5"
+        },
+        {
+            "name":"Том 1 Глава 1 - Файл 6",
+            "id":"lemiisnj_1-6"
+        },
+        {
+            "name":"Том 1 Глава 1 - Файл 7",
+            "id":"lemiisnj_1-7"
+        }
+    ]
+}

@@ -1,13 +1,19 @@
 {
     "splash":[
         "Nyaaaaa!",
-        "UwU"
+        "UwU",
+        "Horny!"
     ],
     "manga":[
         {
             "name":"Я перевоплотился в 7-го принца, так что я буду совершенствовать свою магию, как захочу",
             "cover":"img/covers/7son.jpg",
             "id":"7son"
+        },
+        {
+            "name":"Досье лорда Эль-Меллоя II",
+            "cover":"img/covers/lemiisnj.jpg",
+            "id":"lemiisnj"
         }
     ]
 }
