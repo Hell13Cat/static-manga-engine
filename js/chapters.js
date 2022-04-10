@@ -14,6 +14,7 @@ function start() {
             var json_ready = request.response;
             document.getElementById("cardinfo").style.visibility = "visible";
             document.getElementById('title').textContent = json_ready["name"];
+            document.title = json_ready["name"];
             document.getElementById('cover').src = json_ready["cover"];
             document.getElementById('cardinfo1').textContent = "Автор: " + json_ready["author"];
             document.getElementById('cardinfo2').textContent = "Статус тайтла: " + json_ready["status_ti"];

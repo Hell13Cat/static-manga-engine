@@ -20,6 +20,7 @@ function load_page_first() {
             var json_ready = request.response;
             document.getElementById('prevbutton').style.visibility = "hidden";
             document.getElementById('namech').textContent = json_ready["name_ch"];
+            document.title = json_ready["name_ch"];
             document.getElementById('infostart').textContent = json_ready["start"];
             document.getElementById('infoend').textContent = json_ready["end"];
             document.getElementById('infohead').textContent = json_ready["head"];
