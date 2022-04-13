@@ -1,0 +1,82 @@
+.card {
+    padding-top: 2px rgb(0, 0, 0, 1);
+    border: 2px solid black;
+}
+.cardch {
+    padding-top: 2px rgb(0, 0, 0, 1);
+    border: 2px solid black;
+}
+
+.carda {
+    padding-top: 2px rgb(0, 0, 0, 1);
+    border: 1px solid black;
+}
+
+.card-button-ch {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(0, 0, 0);
+    color: #000000;
+}
+
+body {
+    color: black;
+    background: white;
+}
+
+.body-trans {
+    background: rgb(255, 255, 255, 0.6);
+}
+
+summary {
+    color: darkred;
+}
+
+.hr-v {
+    color: black;
+}
+
+.hr-i {
+    color: rgb(0, 0, 0, 0);
+    height: 1px;
+}
+
+a {
+    color: darkred;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: darkblue;
+}
+
+#card {
+    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0, 1);
+}
+
+#card2 {
+    border: 1px solid black;
+}
+
+.card-button {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+}
+
+#maindiv {
+    background-color:  rgba(255, 255, 255, 0.8);
+}
+
+
+table {
+    border-bottom: 0px solid rgba(255, 255, 255, 0);
+    background: rgba(255, 255, 255, 0);
+}
+
+th {
+    background: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0); 
+}

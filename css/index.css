@@ -11,30 +11,21 @@
 .card {
     transition: 0.3s;
     padding-left: 2px;
-    padding-top: 2px rgb(255, 255, 255, 1);
     padding-bottom: 2px;
     padding-right: 2px;
-    border: 2px solid white;
-    font-family: "Anime Ace v05";
-    font-size: 70%;
+    font-family: "Comic Sans MS";
 }
 .carda {
     transition: 0.3s;
     padding-left: 2px;
-    padding-top: 2px rgb(255, 255, 255, 1);
     padding-bottom: 2px;
     padding-right: 2px;
-    border: 1px solid white;
-    font-family: "Anime Ace v05";
-    font-size: 100%;
+    font-family: "Comic Sans MS";
 }
 .cardch {
     transition: 0.3s;
     padding-left: 2px;
-    padding-top: 2px rgb(255, 255, 255, 1);
     padding-bottom: 2px;
     padding-right: 2px;
-    border: 2px solid white;
-    font-family: "Anime Ace v05";
-    font-size: 70%;
+    font-family: "Comic Sans MS";
 }

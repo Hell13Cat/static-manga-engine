@@ -3,8 +3,18 @@
     <head>
         <title>Страница манги</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/chapter.css">
-        <script type="text/javascript" src="js/chapters.js"></script>
+        <link rel="stylesheet" href="css/manga.css">
+        <link rel="stylesheet" href="css/color-dark.css">
+        <script type="text/javascript" src="js/manga.js"></script>
+        <script type="text/javascript" src="js/theming.js"></script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WBB07CK3DY"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-WBB07CK3DY');
+        </script>
         <meta name="viewport" content="width=device-width">
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
         <meta property="og:title" content="Манги">
@@ -12,6 +22,9 @@
         <meta property="og:description" content="Страница манги">
     </head>
     <body>
+        <script type="text/javascript">
+            startstylepage();
+        </script>
         <div class="body-trans">
             <div id="maindiv">
                 <progress class="progress-page" id="progress"></progress><br>
@@ -30,7 +43,8 @@
                         <p id="helper1" class="invis"></p>
                     </div>
                     <div class="copyright">
-                        <a class="aace" href="mailto:dcma@nyaa.ninja?subject=Manga-DCMA" target="_blank">/DCMA</a> | <a class="aace" href=".">/Главная</a> | <a class="aace" href="https://t.me/Manga_nyaa_ninja" target="_blank">/Telegram</a>
+                        <a class="aace" href="mailto:dcma@nyaa.ninja?subject=Manga-DCMA" target="_blank">/DCMA</a> | <a class="aace" href=".">/Главная</a> | <a class="aace" href="https://t.me/Manga_nyaa_ninja" target="_blank">/Telegram</a><br>
+                        <a class="aace" onclick="swap_theme(1)">Тьма</a> <span class="aace">или</span> <a class="aace" onclick="swap_theme(2)">Свет</a>
                     </div>
                 </div>
             </div>

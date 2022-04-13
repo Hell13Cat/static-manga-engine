@@ -1,0 +1,86 @@
+#hrinvis {
+    color: #000000;
+}
+
+.card {
+    padding-top: 2px rgb(255, 255, 255, 1);
+    border: 2px solid white;
+}
+.cardch {
+    padding-top: 2px rgb(255, 255, 255, 1);
+    border: 2px solid white;
+}
+
+.carda {
+    padding-top: 2px rgb(255, 255, 255, 1);
+    border: 1px solid white;
+}
+
+.card-button-ch {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+body {
+    color: white;
+    background: #000000;
+}
+
+.body-trans {
+    background: rgb(0, 0, 0, 0.6);
+}
+
+summary {
+    color: deeppink;
+}
+
+.hr-v {
+    color: #ffffff;
+}
+
+.hr-i {
+    color: rgb(255, 255, 255, 0);
+    height: 1px;
+}
+
+a {
+    color: deeppink;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:active {
+    color: pink;
+}
+
+#card {
+    box-shadow: 4px 4px 4px 0 rgb(255, 255, 255, 1);
+}
+
+#card2 {
+    border: 1px solid #ffffff;
+}
+
+.card-button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+
+#maindiv {
+    background-color:  rgba(0, 0, 0, 0.8);
+}
+
+
+table {
+    border-bottom: 0px solid rgba(0, 0, 0, 0);
+    background: rgba(0, 0, 0, 0);
+}
+
+th {
+    background: rgba(0, 0, 0, 0);
+    color: rgba(0, 0, 0, 0); 
+}
