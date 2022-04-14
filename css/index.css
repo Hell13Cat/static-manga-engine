@@ -21,6 +21,7 @@
     padding-bottom: 2px;
     padding-right: 2px;
     font-family: "Comic Sans MS";
+    text-align: left;
 }
 .cardch {
     transition: 0.3s;

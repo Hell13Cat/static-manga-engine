@@ -31,6 +31,7 @@ function start() {
                 manga_one_cover.src = manga_info["cover"];
                 manga_one_cover.className = "cover";
                 manga_one.append(manga_one_cover);
+                manga_one.append(document.createElement('br'));
                 manga_one.append(manga_one_ref);
                 document.getElementById('helper1').before(manga_one);
             }

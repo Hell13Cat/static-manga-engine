@@ -123,6 +123,10 @@ td, th {
 .homebuttons:hover {
     opacity:1;
 }
+
+.al-left {
+    text-align: left;
+}
 @media only screen and (min-width : 801px) {
     #maindiv {
         width: 60%;
