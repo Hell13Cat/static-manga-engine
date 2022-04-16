@@ -17,24 +17,24 @@
 }
 
 .card-button-ch {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(16, 16, 16, 0.5);
     border: 1px solid rgb(255, 255, 255);
     color: #ffffff;
 }
 
 .theme-button {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(16, 16, 16, 0.5);
     border: 1px solid rgb(255, 255, 255);
     color: #ffffff;
 }
 
 body {
     color: white;
-    background: #000000;
+    background: #101010;
 }
 
 .body-trans {
-    background: rgb(0, 0, 0, 0.6);
+    background: rgb(0, 0, 0, 0);
 }
 
 summary {
@@ -71,13 +71,13 @@ a:active {
 }
 
 .card-button {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(16, 16, 16, 0.5);
     border: 1px solid rgb(255, 255, 255);
     color: #ffffff;
 }
 
 #maindiv {
-    background-color:  rgba(0, 0, 0, 0.8);
+    background-color:  rgba(0, 0, 0, 0);
 }
 
 

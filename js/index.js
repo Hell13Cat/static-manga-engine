@@ -4,6 +4,13 @@ function getRandomInt(min, max) {
 
 function start() {
     document.getElementById('bodydiv').style.visibility = "hidden";
+    var last_ch_id = document.cookie.replace(/(?:(?:^|.*;\s*)idchaptlast\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+    if(last_ch_id == "") {
+        document.getElementById('lastchbutton').textContent = "Последней главы нет";
+        document.getElementById('lastchbutton').disabled = true;
+    } else {
+        document.getElementById('lastchbutton').textContent = "Последняя глава";
+    }
     var requestURL = "index.json";
     var request = new XMLHttpRequest();
     request.open('GET', requestURL);
@@ -43,4 +50,10 @@ function start() {
         document.getElementById('titlesys').textContent = "Ошибка запроса!";
         document.getElementById('progresspage').style.visibility = "hidden";
     };
+}
+
+function last_ch_go(){
+    var last_ch_id = document.cookie.replace(/(?:(?:^|.*;\s*)idchaptlast\s*\=\s*([^;]*).*$)|^.*$/, "$1");
+    ref_go = "ch.html#" + last_ch_id;
+    document.location.replace(ref_go);
 }

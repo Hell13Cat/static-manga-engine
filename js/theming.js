@@ -21,13 +21,17 @@ function startstylepage() {
 
 function swap_theme(num) {
     if(num == 1) {
-        document.cookie = "theme=dark; max-age=2592000; secure";
+        document.cookie = "theme=black; max-age=2592000; secure";
         document.getElementById('currentstylesheet').remove();
-        addstylesheet("dark");
+        addstylesheet("black");
     } else if (num == 2) {
         document.cookie = "theme=light; max-age=2592000; secure";
         document.getElementById('currentstylesheet').remove();
         addstylesheet("light");
+    } else if (num == 3) {
+        document.cookie = "theme=dark; max-age=2592000; secure";
+        document.getElementById('currentstylesheet').remove();
+        addstylesheet("dark");
     } else {
         // Ignore
     }

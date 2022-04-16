@@ -34,13 +34,14 @@
                     </div>
                     <div class="contentdiv">
                         <progress class="progress-page" id="progressimage"></progress><br>
+                        <p class="aace"><span id="curentpage">1</span> / <span id="totalpage"></span></p>
                         <img src="" id="mangapage"><br>
                         <progress class="progress-page" id="progressimage2"></progress><br>
                         <div id="pc_elem">
-                        <button id="prevbutton" class="card-button-ch nav-button" onclick="page_flip(-1)">Назад</button><button class="card-button-ch nav-button-fullscreen"  onclick="toggleFullScreen()">Экран</button><button class="card-button-ch nav-button-home"  onclick="manga_page()">Главы</button><button id="nextbutton" class="card-button-ch nav-button" onclick="page_flip(1)">Вперед</button>
+                        <button id="prevbutton" class="card-button-ch nav-button" onclick="page_flip(-1)">&#60; Страница</button><button class="card-button-ch nav-button-fullscreen"  onclick="toggleFullScreen()">Экран</button><button class="card-button-ch nav-button-home"  onclick="manga_page()">Главы</button><button id="nextbutton" class="card-button-ch nav-button" onclick="page_flip(1)">Страница &#62;</button>
                         </div>
                         <div id="mobile_elem">
-                            <button id="prevbutton" class="card-button-ch nav-button" onclick="page_flip(-1)">Назад</button><button id="nextbutton" class="card-button-ch nav-button" onclick="page_flip(1)">Вперед</button></br>
+                            <button id="prevbutton" class="card-button-ch nav-button" onclick="page_flip(-1)">&#60; Страница</button><button id="nextbutton" class="card-button-ch nav-button" onclick="page_flip(1)">Страница &#62;</button></br>
                             <button class="card-button-ch nav-button-fullscreen"  onclick="toggleFullScreen()">Экран</button><button class="card-button-ch nav-button-home"  onclick="manga_page()">Главы</button>
                         </div>
                         <div id="copyright" class="copyright">
@@ -50,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <p id="infotitle" class="invis2"></p><p id="infostart" class="invis2"></p><p id="infoend" class="invis2"></p><p id="infohead" class="invis2"></p>
+            <p id="infoflipch" class="invis2"></p><p id="infotitle" class="invis2"></p><p id="infostart" class="invis2"></p><p id="infoend" class="invis2"></p><p id="infohead" class="invis2"></p>
         </div>
         <script type="text/javascript">
             load_page_first();

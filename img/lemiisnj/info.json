@@ -1,0 +1,63 @@
+{
+    "ch_data":{
+        "1":{
+            "num":1,
+            "name":"Досье лорда Эль-Меллоя II",
+            "name_ch":"Том 1 Глава 1 - Файл 1",
+            "head":"lemiisnj",
+            "start":0,
+            "end":48,
+            "ext":"jpeg"
+        },
+        "2":{
+            "name":"Досье лорда Эль-Меллоя II",
+            "name_ch":"Том 1 Глава 1 - Файл 2",
+            "head":"lemiisnj",
+            "start":0,
+            "end":41,
+            "ext":"jpeg"
+        },
+        "3":{
+            "name":"Досье лорда Эль-Меллоя II",
+            "name_ch":"Том 1 Глава 1 - Файл 3",
+            "head":"lemiisnj",
+            "start":0,
+            "end":36,
+            "ext":"jpeg"
+        },
+        "4":{
+            "name":"Досье лорда Эль-Меллоя II",
+            "name_ch":"Том 1 Глава 1 - Файл 4",
+            "head":"lemiisnj",
+            "start":0,
+            "end":28,
+            "ext":"jpeg"
+        },
+        "5":{
+            "name":"Досье лорда Эль-Меллоя II",
+            "name_ch":"Том 1 Глава 1 - Файл 5",
+            "head":"lemiisnj",
+            "start":0,
+            "end":30,
+            "ext":"jpeg"
+        },
+        "6":{
+            "name":"Досье лорда Эль-Меллоя II",
+            "name_ch":"Том 1 Глава 1 - Файл 6",
+            "head":"lemiisnj",
+            "start":0,
+            "end":33,
+            "ext":"jpeg"
+        },
+        "7":{
+            "name":"Досье лорда Эль-Меллоя II",
+            "name_ch":"Том 1 Глава 1 - Файл 7",
+            "head":"lemiisnj",
+            "start":0,
+            "end":24,
+            "ext":"jpeg"
+        }
+    },
+    "start":1,
+    "end":7
+}
