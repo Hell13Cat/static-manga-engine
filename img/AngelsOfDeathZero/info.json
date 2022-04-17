@@ -1,0 +1,177 @@
+{
+    "ch_data":{
+        "0":{
+            "num":0,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 1 Глава 0",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":33,
+            "ext":"jpeg"
+        },
+        "1":{
+            "num":1,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 1 Глава 1 - священник",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":39,
+            "ext":"jpeg"
+        },
+        "2":{
+            "num":2,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 1 Глава 2 - Этот жестокий мир",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":53,
+            "ext":"jpeg"
+        },
+        "3":{
+            "num":3,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 1 Глава 3 - Ангел",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":24,
+            "ext":"jpeg"
+        },
+        "4":{
+            "num":4,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 2 Глава 4 - Мебельный магазин близнецов",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":35,
+            "ext":"jpeg"
+        },
+        "5":{
+            "num":5,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 2 Глава 5 - Ответы",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":40,
+            "ext":"jpeg"
+        },
+        "6":{
+            "num":6,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 2 Глава 6 - Окровавленная девушка",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":25,
+            "ext":"jpeg"
+        },
+        "7":{
+            "num":7,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 2 Глава 7 - Роза и китайский красный бутон",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":50,
+            "ext":"jpeg"
+        },
+        "8":{
+            "num":8,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 3 Глава 8 - Первая жертва",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":14,
+            "ext":"jpeg"
+        },
+        "9":{
+            "num":9,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 3 Глава 9 - Охотник за глазами",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":27,
+            "ext":"jpeg"
+        },
+        "10":{
+            "num":10,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 3 Глава 10 - Пустые глаза",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":24,
+            "ext":"jpeg"
+        },
+        "11":{
+            "num":11,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 3 Глава 11 - Украсть",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":34,
+            "ext":"jpeg"
+        },
+        "12":{
+            "num":12,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 3 Глава 12 - Хранитель могил и мастер мебельных изделий",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":34,
+            "ext":"jpeg"
+        },
+        "13":{
+            "num":13,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 4 Глава 13 - Виновник найден",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":26,
+            "ext":"jpeg"
+        },
+        "14":{
+            "num":14,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 4 Глава 14 - Смертельные танцы часть 1",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":32,
+            "ext":"bmp"
+        },
+        "15":{
+            "num":15,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 4 Глава 15 - Смертельные танцы часть 2",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":37,
+            "ext":"bmp"
+        },
+        "16":{
+            "num":16,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 4 Глава 16 - Божье Дитя часть 1",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":32,
+            "ext":"bmp"
+        },
+        "17":{
+            "num":17,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 4 Глава 17 - Божье Дитя часть 2",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":15,
+            "ext":"bmp"
+        },
+        "18":{
+            "num":18,
+            "name":"Ангел кровопролития: Эпизод.0",
+            "name_ch":"Том 5 Глава 18 - Мой \"Дьявол\"",
+            "head":"AngelsOfDeathZero",
+            "start":0,
+            "end":32,
+            "ext":"bmp"
+        }
+    },
+    "start":0,
+    "end":18
+}

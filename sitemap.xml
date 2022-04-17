@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://manga.nyaa.ninja/index.html</loc>
+        <lastmod>2022-04-16</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://manga.nyaa.ninja/manga.html#7son</loc>
+        <lastmod>2022-04-16</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://manga.nyaa.ninja/manga.html#lemiisnj</loc>
+        <lastmod>2022-04-16</lastmod>
+        <changefreq>always</changefreq>
+        <priority>1.0</priority>
+    </url>
+</urlset>

@@ -2,9 +2,11 @@
 img/*/*.jpeg
 img/*/*.jpg
 img/*/*.png
+img/*/*.bmp
 img/*/*/*.jpeg
 img/*/*/*.jpg
 img/*/*/*.png
+img/*/*/*.bmp
 !img/covers/*
 
 # Byte-compiled / optimized / DLL files

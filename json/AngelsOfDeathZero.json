@@ -1,0 +1,87 @@
+{
+    "name":"Ангел кровопролития: Эпизод.0",
+    "name_orig":"Angels of death: Episode.0",
+    "author":"SANADA Makoto",
+    "status_tl":"Завершен",
+    "status_ti":"Завершен",
+    "cover":"img/covers/AngelsOfDeathZero.jpg",
+    "ch":[
+        {
+            "name":"Том 1 Глава 0",
+            "id":"AngelsOfDeathZero_0"
+        },
+        {
+            "name":"Том 1 Глава 1 - священник",
+            "id":"AngelsOfDeathZero_1"
+        },
+        {
+            "name":"Том 1 Глава 2 - Этот жестокий мир",
+            "id":"AngelsOfDeathZero_2"
+        },
+        {
+            "name":"Том 1 Глава 3 - Ангел",
+            "id":"AngelsOfDeathZero_3"
+        },
+        {
+            "name":"Том 2 Глава 4 - Мебельный магазин близнецов",
+            "id":"AngelsOfDeathZero_4"
+        },
+        {
+            "name":"Том 2 Глава 5 - Ответы",
+            "id":"AngelsOfDeathZero_5"
+        },
+        {
+            "name":"Том 2 Глава 6 - Окровавленная девушка",
+            "id":"AngelsOfDeathZero_6"
+        },
+        {
+            "name":"Том 2 Глава 7 - Роза и китайский красный бутон",
+            "id":"AngelsOfDeathZero_7"
+        },
+        {
+            "name":"Том 3 Глава 8 - Первая жертва",
+            "id":"AngelsOfDeathZero_8"
+        },
+        {
+            "name":"Том 3 Глава 9 - Охотник за глазами",
+            "id":"AngelsOfDeathZero_9"
+        },
+        {
+            "name":"Том 3 Глава 10 - Пустые глаза",
+            "id":"AngelsOfDeathZero_10"
+        },
+        {
+            "name":"Том 3 Глава 11 - Украсть",
+            "id":"AngelsOfDeathZero_11"
+        },
+        {
+            "name":"Том 3 Глава 12 - Хранитель могил и мастер мебельных изделий",
+            "id":"AngelsOfDeathZero_12"
+        },
+        {
+            "name":"Том 4 Глава 13 - Виновник найден",
+            "id":"AngelsOfDeathZero_13"
+        },
+        {
+            "name":"Том 4 Глава 14 - Смертельные танцы часть 1",
+            "id":"AngelsOfDeathZero_14"
+        },
+        {
+            "name":"Том 4 Глава 15 - Смертельные танцы часть 2",
+            "id":"AngelsOfDeathZero_15"
+        },
+        {
+            "name":"Том 4 Глава 16 - Божье Дитя часть 1",
+            "id":"AngelsOfDeathZero_16"
+        },
+        {
+            "name":"Том 4 Глава 17 - Божье Дитя часть 2",
+            "id":"AngelsOfDeathZero_17"
+        },
+        {
+            "name":"Том 5 Глава 18 - Мой \"Дьявол\"",
+            "id":"AngelsOfDeathZero_18"
+        }
+    ],
+    "description":"Эта история о событиях, произошедших с известными нам палачами: Кэтрин Уорд, Данниэль Диккенс, Абрахам Грей и Эдди Мейсон до знакомства с Рейчел Гарднер. Как все-таки эти люди оказались в столь странном месте? С какой целью Грей создал испытательный центр?"
+}
