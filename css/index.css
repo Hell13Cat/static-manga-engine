@@ -40,6 +40,9 @@
         padding-top: 15px;
         padding-bottom: 15px;
     }
+    .carda {
+        display: flex;
+    }
 }
     
 @media only screen and (max-width : 800px) {

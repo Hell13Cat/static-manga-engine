@@ -1,5 +1,4 @@
 function start() {
-    document.getElementById("cardinfo").style.visibility = "hidden";
     var id_chapt = window.location.hash.replace("#", "");
     var requestURL = "json/" + id_chapt + ".json";
     var request = new XMLHttpRequest();
@@ -30,6 +29,7 @@ function start() {
                 ch_p_one.append(ch_one);
                 document.getElementById('helper1').before(ch_p_one);
             }
+            document.getElementById('bodydiv').style.visibility = "visible";
             document.getElementById('progress').style.visibility = "hidden";
         }
     }

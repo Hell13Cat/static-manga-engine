@@ -1,5 +1,4 @@
 function load_page_first() {
-    document.getElementById('bodydiv').style.visibility = "hidden";
     var id_chapt = window.location.hash.replace("#", "");
     chapt_ref = id_chapt.split("_");
     document.cookie = "idchaptlast="+id_chapt+"; max-age=2592000; secure";

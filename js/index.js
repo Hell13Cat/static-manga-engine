@@ -3,7 +3,6 @@ function getRandomInt(min, max) {
 }
 
 function start() {
-    document.getElementById('bodydiv').style.visibility = "hidden";
     var last_ch_id = document.cookie.replace(/(?:(?:^|.*;\s*)idchaptlast\s*\=\s*([^;]*).*$)|^.*$/, "$1");
     if(last_ch_id == "") {
         document.getElementById('lastchbutton').textContent = "Последней главы нет";

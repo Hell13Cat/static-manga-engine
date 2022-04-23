@@ -51,11 +51,15 @@ a {
 }
 
 a:visited {
-    color: purple;
+    color: FireBrick;
 }
 
 a:active {
-    color: darkblue;
+    color: Red;
+}
+
+.title-index-nyaa {
+    color: Indigo;
 }
 
 #card {

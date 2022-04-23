@@ -1,9 +1,16 @@
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min)) + min;
+}
+
 function addstylesheet(name_short) {
     var head = document.head;
     var link = document.createElement("link");
     link.type = "text/css";
     link.rel = "stylesheet";
-    name_style = "css/color-"+name_short+".css"
+    version = 2
+    name_style = "css/color-"+name_short+".css?v=" + version;
     link.href = name_style;
     link.id = "currentstylesheet";
     head.appendChild(link);

@@ -51,15 +51,18 @@ summary {
 }
 
 a {
-    color: deeppink;
+    color: Pink;
 }
 
 a:visited {
-    color: purple;
+    color: HotPink;
 }
 
 a:active {
-    color: pink;
+    color: PaleVioletRed;
+}
+.title-index-nyaa {
+    color: Orchid;
 }
 
 #card {
