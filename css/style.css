@@ -10,6 +10,10 @@ body {
     size: 3px;
 }
 
+.links {
+    text-decoration: none;
+}
+
 .body-index {
     /* NULL */
 }
