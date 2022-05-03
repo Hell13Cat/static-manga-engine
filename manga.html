@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>Страница манги</title>
-        <link rel="stylesheet" href="css/style.css?v=2">
-        <link rel="stylesheet" href="css/manga.css?v=2">
+        <link rel="stylesheet" href="css/style.css?v=3">
+        <link rel="stylesheet" href="css/manga.css?v=3">
         <link rel="stylesheet" href="css/color-dark.css">
         <script type="text/javascript" src="js/manga.js"></script>
         <script type="text/javascript" src="js/theming.js"></script>
@@ -20,6 +20,7 @@
         <meta property="og:title" content="Манги">
         <meta property="og:site_name" content="manga.nyaa.ninja">
         <meta property="og:description" content="Страница манги">
+        <meta property="og:image" content="android-chrome-512x512.png">
     </head>
     <body>
         <script type="text/javascript">
@@ -28,27 +29,35 @@
         <div class="body-trans">
             <div id="maindiv">
                 <progress class="progress-page" id="progress"></progress><br>
-                <div id="bodydiv" style="visibility: hidden;">
-                    <img id="cover" class="cover">
-                    <div id="title" class="titlediv">
-                        <h1></h1>
+                <div class="content" id="bodydiv" style="visibility: hidden;">
+                    <div class="onecol">
+                        <img id="cover" class="cover">
+                        <div id="title" class="titlediv">
+                            <h1></h1>
+                        </div>
+                        <div class="copyright pc-only">
+                            <a class="aace links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="aace links" href=".">/Главная</a> | <a class="aace links" href="https://t.me/nyaa_ninja" target="_blank">/Telegram</a><br>
+                            <a class="aace links" href="setting.html">Настройки</a>
+                        </div>
                     </div>
-                    <div id="cardinfo" class="card">
-                        <p id="cardinfo1"></p>
-                        <p id="cardinfo2"></p>
-                        <p id="cardinfo3"></p>
-                    </div>
-                    <div id="cardinfo" class="card">
-                        <p>Описание:</p>
-                        <p id="descriptionmanga" class="aace"></p>
-                    </div>
-                    <div id="cardinfoch" class="cardch">
-                        <p>Главы:</p>
-                        <p id="helper1" class="invis"></p>
-                    </div>
-                    <div class="copyright">
-                        <a class="aace links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="aace links" href=".">/Главная</a> | <a class="aace links" href="https://t.me/Manga_nyaa_ninja" target="_blank">/Telegram</a><br>
-                        <a class="aace links" href="setting.html">Настройки</a>
+                    <div class="twocol">
+                        <div id="cardinfo" class="card">
+                            <p id="cardinfo1"></p>
+                            <p id="cardinfo2"></p>
+                            <p id="cardinfo3"></p>
+                        </div>
+                        <div id="cardinfo" class="card">
+                            <p>Описание:</p>
+                            <p id="descriptionmanga" class="aace"></p>
+                        </div>
+                        <div id="cardinfoch" class="cardch">
+                            <p>Главы:</p>
+                            <p id="helper1" class="invis"></p>
+                        </div>
+                        <div class="copyright mobile-only">
+                            <a class="aace links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="aace links" href=".">/Главная</a> | <a class="aace links" href="https://t.me/nyaa_ninja" target="_blank">/Telegram</a><br>
+                            <a class="aace links" href="setting.html">Настройки</a>
+                        </div>
                     </div>
                 </div>
             </div>

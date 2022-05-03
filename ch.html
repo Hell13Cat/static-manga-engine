@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>Страница главы</title>
-        <link rel="stylesheet" href="css/style.css?v=2">
-        <link rel="stylesheet" href="css/ch.css?v=2">
+        <link rel="stylesheet" href="css/style.css?v=3">
+        <link rel="stylesheet" href="css/ch.css?v=3">
         <link rel="stylesheet" href="css/color-dark.css">
         <script type="text/javascript" src="js/ch.js"></script>
         <script type="text/javascript" src="js/theming.js"></script>
@@ -20,6 +20,7 @@
         <meta property="og:title" content="Глава">
         <meta property="og:site_name" content="manga.nyaa.ninja">
         <meta property="og:description" content="Страница главы">
+        <meta property="og:image" content="android-chrome-512x512.png">
     </head>
     <body>
         <script type="text/javascript">
@@ -28,26 +29,34 @@
         <div class="body-trans">
             <div id="maindiv">
                 <progress class="progress-page" id="progresspage"></progress><br><h id="titlesys"></h>
-                <div id="bodydiv" style="visibility: hidden;">
-                    <div id="title_ch" class="titlediv">
-                        <h2 id="namech"></h2>
+                <div class="content" id="bodydiv" style="visibility: hidden;">
+                    <div class="onecol">
+                        <div id="title_ch" class="titlediv">
+                            <h2 id="namech"></h2>
+                        </div>
+                        <button class="card-button-ch nav-button-home pc-only"  onclick="manga_page()">Главы</button>
+                        <button class="card-button-ch nav-button-fullscreen pc-only"  onclick="toggleFullScreen()">Экран</button>
+                        <div id="copyright" class="copyright pc-only">
+                            <a class="aace links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="aace links" href=".">/Главная</a> | <a class="aace links" href="https://t.me/nyaa_ninja" target="_blank">/Telegram</a><br>
+                            <a class="aace links" href="setting.html">Настройки</a>
+                        </div>
                     </div>
-                    <div class="contentdiv">
+                    <div class="twocol">
                         <progress class="progress-page" id="progressimage"></progress><br>
                         <p class="aace"><span id="curentpage">1</span> / <span id="totalpage"></span></p>
                         <img src="" id="mangapage"><br>
                         <progress class="progress-page" id="progressimage2"></progress><br>
                         <div id="pc_elem">
-                        <button id="prevbutton" class="card-button-ch nav-button" onclick="page_flip(-1)">&#60; Страница</button><button class="card-button-ch nav-button-fullscreen"  onclick="toggleFullScreen()">Экран</button><button class="card-button-ch nav-button-home"  onclick="manga_page()">Главы</button><button id="nextbutton" class="card-button-ch nav-button" onclick="page_flip(1)">Страница &#62;</button>
+                        <button id="prevbutton" class="card-button-ch nav-button" onclick="page_flip(-1)">&#60; Страница</button><button id="nextbutton" class="card-button-ch nav-button" onclick="page_flip(1)">Страница &#62;</button>
                         </div>
                         <div id="mobile_elem">
                             <button id="prevbutton" class="card-button-ch nav-button" onclick="page_flip(-1)">&#60; Страница</button><button id="nextbutton" class="card-button-ch nav-button" onclick="page_flip(1)">Страница &#62;</button></br>
                             <button class="card-button-ch nav-button-fullscreen"  onclick="toggleFullScreen()">Экран</button><button class="card-button-ch nav-button-home"  onclick="manga_page()">Главы</button>
                         </div>
-                        <div id="copyright" class="copyright">
-                            <a class="aace links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="aace links" href=".">/Главная</a> | <a class="aace links" href="https://t.me/Manga_nyaa_ninja" target="_blank">/Telegram</a><br>
-                            <a class="aace links" href="setting.html">Настройки</a>
-                        </div>
+                    </div>
+                    <div id="copyright" class="copyright mobile-only">
+                        <a class="aace links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="aace links" href=".">/Главная</a> | <a class="aace links" href="https://t.me/nyaa_ninja" target="_blank">/Telegram</a><br>
+                        <a class="aace links" href="setting.html">Настройки</a>
                     </div>
                 </div>
             </div>

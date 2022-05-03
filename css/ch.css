@@ -19,15 +19,15 @@
 
 @media only screen and (min-width : 801px) {
     .nav-button {
-        width: 35%;
+        width: 50%;
         height: 15%;
     }
     .nav-button-home {
-        width: 20%;
+        width: 100%;
         height: 15%;
     }
     .nav-button-fullscreen {
-        width: 10%;
+        width: 100%;
         height: 15%;
     }
     .card-button-ch {

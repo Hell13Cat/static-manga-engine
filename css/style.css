@@ -131,11 +131,14 @@ td, th {
 .al-left {
     text-align: left;
 }
+
+
 @media only screen and (min-width : 801px) {
-    #maindiv {
-        width: 60%;
-        margin-left: 20%;
-        margin-right: 20%;
+    .pc-only {
+        display: block;
+    }
+    .mobile-only {
+        display: none;
     }
     .sitebuttons {
         width: 100%;
@@ -147,14 +150,43 @@ td, th {
     table {
         width: 150px;
     }
-}
-    
-@media only screen and (max-width : 800px) {
-    #maindiv {
-        width: 100%;
-        margin-left: 0%;
-        margin-right: 0%;
+    .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-height: 100%;
+        padding: 0;
     }
+    .onecol {
+        width: 20%;
+        height: 100%;
+        background-clip: content-box;
+        list-style: none;
+        padding-right: 1%;
+    }
+    .twocol {
+        width: 79%;
+        height: 100%;
+        background-clip: content-box;
+        list-style: none;
+    }
+}
+
+@media only screen and (min-width : 801px) and (max-width : 1090px) {
+    .titlediv {
+        font-size: 60%;
+    }
+}
+
+@media only screen and (min-width : 1091px) {
+    .titlediv {
+        font-size: 80%;
+    }
+}
+
+
+
+@media only screen and (max-width : 800px) {
     .sitebuttons {
         width: 100%;
     }
@@ -164,5 +196,11 @@ td, th {
     }
     table {
         width: 130px;
+    }
+    .pc-only {
+        display: none;
+    }
+    .mobile-only {
+        display: block;
     }
 }
