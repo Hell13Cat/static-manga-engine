@@ -33,7 +33,7 @@ function start() {
                 let manga_one_ref = document.createElement('a');
                 manga_one_ref.href = "manga.html#" + manga_info["id"];
                 manga_one_ref.textContent = manga_info["name"];
-                manga_one_ref.className = "links";
+                manga_one_ref.className = "links index-links";
                 let manga_one_cover = document.createElement('img');
                 manga_one_cover.src = manga_info["cover"];
                 manga_one_cover.className = "cover";

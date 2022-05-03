@@ -9,7 +9,7 @@ function addstylesheet(name_short) {
     var link = document.createElement("link");
     link.type = "text/css";
     link.rel = "stylesheet";
-    version = 2
+    version = 4
     name_style = "css/color-"+name_short+".css?v=" + version;
     link.href = name_style;
     link.id = "currentstylesheet";

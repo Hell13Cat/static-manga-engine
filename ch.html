@@ -2,9 +2,9 @@
 <html>
     <head>
         <title>Страница главы</title>
-        <link rel="stylesheet" href="css/style.css?v=3">
-        <link rel="stylesheet" href="css/ch.css?v=3">
-        <link rel="stylesheet" href="css/color-dark.css">
+        <link rel="stylesheet" href="css/style.css?v=4">
+        <link rel="stylesheet" href="css/ch.css?v=4">
+        <link rel="stylesheet" href="css/color-dark.css?v=4">
         <script type="text/javascript" src="js/ch.js"></script>
         <script type="text/javascript" src="js/theming.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,9 +36,14 @@
                         </div>
                         <button class="card-button-ch nav-button-home pc-only"  onclick="manga_page()">Главы</button>
                         <button class="card-button-ch nav-button-fullscreen pc-only"  onclick="toggleFullScreen()">Экран</button>
-                        <div id="copyright" class="copyright pc-only">
-                            <a class="aace links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="aace links" href=".">/Главная</a> | <a class="aace links" href="https://t.me/nyaa_ninja" target="_blank">/Telegram</a><br>
-                            <a class="aace links" href="setting.html">Настройки</a>
+                        <div id="copyright" class="pc-only">
+                            <hr class="pc-only nav-hr">
+                            <a class="aace links button-e" href="."><button class="nav-button">Главная</button></a>
+                            <a class="aace links button-e" href="setting.html"><button class="nav-button">Настройки</button></a>
+                            <hr class="pc-only nav-hr">
+                            <a class="aace links button-e" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank"><button class="nav-button">DCMA</button></a>
+                            <a class="aace links button-e" href="https://t.me/nyaa_ninja" target="_blank"><button class="nav-button">Telegram</button></a><br>
+                            
                         </div>
                     </div>
                     <div class="twocol">
@@ -47,10 +52,10 @@
                         <img src="" id="mangapage"><br>
                         <progress class="progress-page" id="progressimage2"></progress><br>
                         <div id="pc_elem">
-                        <button id="prevbutton" class="card-button-ch nav-button" onclick="page_flip(-1)">&#60; Страница</button><button id="nextbutton" class="card-button-ch nav-button" onclick="page_flip(1)">Страница &#62;</button>
+                        <button id="prevbutton" class="card-button-ch nav-button-ch" onclick="page_flip(-1)">&#60; Страница</button><button id="nextbutton" class="card-button-ch nav-button-ch" onclick="page_flip(1)">Страница &#62;</button>
                         </div>
                         <div id="mobile_elem">
-                            <button id="prevbutton" class="card-button-ch nav-button" onclick="page_flip(-1)">&#60; Страница</button><button id="nextbutton" class="card-button-ch nav-button" onclick="page_flip(1)">Страница &#62;</button></br>
+                            <button id="prevbutton" class="card-button-ch nav-button-ch" onclick="page_flip(-1)">&#60; Страница</button><button id="nextbutton" class="card-button-ch nav-button-ch" onclick="page_flip(1)">Страница &#62;</button></br>
                             <button class="card-button-ch nav-button-fullscreen"  onclick="toggleFullScreen()">Экран</button><button class="card-button-ch nav-button-home"  onclick="manga_page()">Главы</button>
                         </div>
                     </div>

@@ -7,17 +7,20 @@
 }
 .card {
     transition: 0.3s;
-    padding-left: 2px;
-    padding-bottom: 2px;
-    padding-right: 2px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-bottom: 5px;
     font-family: "Comic Sans MS";
     text-align: left;
 }
 .cardch {
     transition: 0.3s;
-    padding-left: 2px;
-    padding-bottom: 2px;
-    padding-right: 2px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
     font-family: "Comic Sans MS";
 }
 

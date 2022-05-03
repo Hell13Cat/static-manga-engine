@@ -1,32 +1,35 @@
 .card {
-    padding-top: 2px rgb(0, 0, 0, 1);
-    border: 2px solid black;
+    background-color: rgba(200, 200, 200, 0.5);
+    padding-top: 0px rgb(0, 0, 0, 1);
+    border: 0px solid black;
 }
 .cardch {
-    padding-top: 2px rgb(0, 0, 0, 1);
-    border: 2px solid black;
+    background-color: rgba(200, 200, 200, 0.5);
+    padding-top: 0px rgb(0, 0, 0, 1);
+    border: 0px solid black;
 }
 
 .carda {
-    padding-top: 2px rgb(0, 0, 0, 1);
-    border: 1px solid black;
+    background-color: rgba(200, 200, 200, 0.5);
+    padding-top: 0px rgb(0, 0, 0, 1);
+    border: 0px solid black;
 }
 
 .card-button-ch {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(200, 200, 200, 0.5);
+    border: 0px solid rgb(0, 0, 0);
     color: #000000;
 }
 
 .theme-button {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(200, 200, 200, 0.5);
+    border: 0px solid rgb(0, 0, 0);
     color: #000000;
 }
 
 body {
     color: black;
-    background: white;
+    background: rgb(255, 255, 255);
 }
 
 .body-trans {
@@ -71,13 +74,24 @@ a:active {
 }
 
 .card-button {
-    background-color: rgba(255, 255, 255, 0.5);
-    border: 1px solid rgb(0, 0, 0);
+    background-color: rgba(200, 200, 200, 0.5);
+    border: 0px solid rgb(0, 0, 0);
     color: black;
 }
 
+.nav-button {
+    background-color: rgba(200, 200, 200, 0.5);
+    border: 0px solid rgb(0, 0, 0);
+    color: black;
+}
+.block-text {
+    background-color: rgba(200, 200, 200, 0.5);
+    border: 0px solid rgb(255, 255, 255);
+    color: #ffffff;
+}
+
 #maindiv {
-    background-color:  rgba(255, 255, 255, 0.8);
+    background-color:  rgb(255, 255, 255);
 }
 
 
@@ -89,4 +103,12 @@ table {
 th {
     background: rgba(255, 255, 255, 0);
     color: rgba(255, 255, 255, 0); 
+}
+
+.logo-data {
+    content: url(/img/logo-b.png);
+}
+
+.nav-hr {
+    color: #000000;
 }

@@ -22,6 +22,7 @@
     padding-right: 2px;
     font-family: "Comic Sans MS";
     text-align: left;
+    margin-bottom: 5px;
 }
 .cardch {
     transition: 0.3s;
@@ -29,6 +30,9 @@
     padding-bottom: 2px;
     padding-right: 2px;
     font-family: "Comic Sans MS";
+}
+.index-links {
+    margin-top: 10px;
 }
 
 @media only screen and (min-width : 801px) {
@@ -51,6 +55,9 @@
     .carda {
         display: flex;
     }
+    .logo-data {
+        width: 100%;
+    }
 }
     
 @media only screen and (max-width : 800px) {
@@ -69,5 +76,8 @@
         padding-right: 0px;
         padding-top: 20px;
         padding-bottom: 20px;
+    }
+    .logo-data {
+        width: 50%;
     }
 }

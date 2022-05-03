@@ -12,13 +12,14 @@
     font-family: "Comic Sans MS";
     cursor: pointer;
     opacity: 1;
+    margin-bottom: 5px;
 }
 .card-button-ch:hover {
     opacity:0.8;
 }
 
 @media only screen and (min-width : 801px) {
-    .nav-button {
+    .nav-button-ch {
         width: 50%;
         height: 15%;
     }
@@ -39,7 +40,7 @@
 }
     
 @media only screen and (max-width : 800px) {
-    .nav-button {
+    .nav-button-ch {
         width: 50%;
         height: 30%;
     }
