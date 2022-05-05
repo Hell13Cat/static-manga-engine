@@ -30,17 +30,17 @@ function start() {
                 manga_info = list_ch[index]
                 let manga_one = document.createElement('div');
                 if ((index+1)%2 === 0) {
-                    manga_one.className = "carda index-manga-one-1";
+                    manga_one.className = "nav-card index-nav-card index-manga-one-1";
                 } else {
-                    manga_one.className = "carda index-manga-one-2";
+                    manga_one.className = "nav-card index-nav-card index-manga-one-2";
                 }
                 let manga_one_ref = document.createElement('a');
                 manga_one_ref.href = "manga.html#" + manga_info["id"];
                 manga_one_ref.textContent = manga_info["name"];
-                manga_one_ref.className = "links index-links";
+                manga_one_ref.className = "links index-manga-links";
                 let manga_one_cover = document.createElement('img');
                 manga_one_cover.src = manga_info["cover"];
-                manga_one_cover.className = "index-cover";
+                manga_one_cover.className = "index-manga-cover";
                 manga_one.append(manga_one_cover);
                 manga_one.append(document.createElement('br'));
                 manga_one.append(manga_one_ref);

@@ -22,13 +22,11 @@ function start() {
             var list_ch = json_ready["ch"];
             var index;
             for (index = 0; index < list_ch.length; ++index) {
-                let ch_p_one = document.createElement('p');
                 let ch_one = document.createElement('a');
                 ch_one.href = "ch.html#" + list_ch[index]["id"];
                 ch_one.textContent = list_ch[index]["name"]
-                ch_one.className = "links";
-                ch_p_one.append(ch_one);
-                document.getElementById('helper1').before(ch_p_one);
+                ch_one.className = "links manga-nav-content manga-links";
+                document.getElementById('helper1').before(ch_one);
             }
             document.getElementById('bodydiv').style.visibility = "visible";
             document.getElementById('progress').style.display = "none";

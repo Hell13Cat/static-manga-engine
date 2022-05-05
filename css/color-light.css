@@ -1,54 +1,3 @@
-.card {
-    background-color: rgba(200, 200, 200, 0.5);
-    padding-top: 0px rgb(0, 0, 0, 1);
-    border: 0px solid black;
-}
-.cardch {
-    background-color: rgba(200, 200, 200, 0.5);
-    padding-top: 0px rgb(0, 0, 0, 1);
-    border: 0px solid black;
-}
-
-.carda {
-    background-color: rgba(200, 200, 200, 0.5);
-    padding-top: 0px rgb(0, 0, 0, 1);
-    border: 0px solid black;
-}
-
-.card-button-ch {
-    background-color: rgba(200, 200, 200, 0.5);
-    border: 0px solid rgb(0, 0, 0);
-    color: #000000;
-}
-
-.theme-button {
-    background-color: rgba(200, 200, 200, 0.5);
-    border: 0px solid rgb(0, 0, 0);
-    color: #000000;
-}
-
-body {
-    color: black;
-    background: rgb(255, 255, 255);
-}
-
-.body-trans {
-    background: rgb(255, 255, 255, 0.6);
-}
-
-summary {
-    color: darkred;
-}
-
-.hr-v {
-    color: black;
-}
-
-.hr-i {
-    color: rgb(0, 0, 0, 0);
-    height: 1px;
-}
-
 a {
     color: darkred;
 }
@@ -61,54 +10,29 @@ a:active {
     color: Red;
 }
 
-.title-index-nyaa {
-    color: Indigo;
-}
-
-#card {
-    box-shadow: 4px 4px 4px 0 rgb(0, 0, 0, 1);
-}
-
-#card2 {
-    border: 1px solid black;
-}
-
-.card-button {
-    background-color: rgba(200, 200, 200, 0.5);
-    border: 0px solid rgb(0, 0, 0);
+body {
     color: black;
+    background: rgb(255, 255, 255);
 }
 
 .nav-button {
     background-color: rgba(200, 200, 200, 0.5);
-    border: 0px solid rgb(0, 0, 0);
-    color: black;
-}
-.block-text {
-    background-color: rgba(200, 200, 200, 0.5);
-    border: 0px solid rgb(255, 255, 255);
-    color: #ffffff;
-}
-
-#maindiv {
-    background-color:  rgb(255, 255, 255);
-}
-
-
-table {
-    border-bottom: 0px solid rgba(255, 255, 255, 0);
-    background: rgba(255, 255, 255, 0);
-}
-
-th {
-    background: rgba(255, 255, 255, 0);
-    color: rgba(255, 255, 255, 0); 
-}
-
-.logo-data {
-    content: url(/img/logo-b.png);
-}
-
-.nav-hr {
+    border: 0px;
     color: #000000;
+}
+
+.nav-card {
+    background-color: rgba(200, 200, 200, 0.5);
+    padding-top: 0px;
+    border: 0px;
+}
+
+.manga-nav-card {
+    background-color: rgba(200, 200, 200, 0.5);
+    padding-top: 0px;
+    border: 0px;
+}
+
+.index-logo-data {
+    content: url(/img/logo-b.png);
 }

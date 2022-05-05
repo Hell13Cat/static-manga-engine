@@ -2,123 +2,25 @@
 
 body {
     text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
     font-family: 'Roboto', sans-serif;
-}
-
-#hrinvis {
-    size: 3px;
 }
 
 .links {
     text-decoration: none;
 }
 
-.body-index {
-    /* NULL */
+.invis {
+    display: none;
 }
 
-.body-project {
-    /* NULL */
-}
-
-.body-firefox {
-    /* NULL */
-}
-
-.hr-i {
-    height: 1px;
-}
-
-img {
-    width: 100%;
-}
-
-ul {
-    list-style-position: inside;
-}
-
-#lista {
-    text-align: left;
-}
-
-#bodydiv {
-    margin-left: 2%;
-    margin-right: 2%;
-    height: 100%;
-}
-
-.contentdiv {
-    /* NULL */
-}
-
-#card {
-    transition: 0.3s;
-    padding-left: 2px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-right: 2px;
-}
-
-.card-title {
-    padding: 1px 0px 1px 10px;
-    font-family: 'Roboto', sans-serif;
-}
-
-.card-text {
-    padding: 1px 0px 1px 5px;
-}
-
-.card-button {
-    padding: 5px;
-    cursor: pointer;
+.button-e {
     opacity: 1;
-}
-.card-button:hover {
-    opacity:0.8;
-}
-.card-button-block {
-    padding: 5px 0px 5px 5px;
+    cursor: pointer;
 }
 
-.copyright {
-    padding: 10px;
-    right: 1em;
-    text-align: center;
-    bottom: 1em;
-}
-
-#maindiv {
-    margin-top: 0px;
-}
-
-
-table {
-    margin: 0 auto 0 auto;
-}
-
-th {
-    text-align: center;
-}
-
-td, th {
-    padding: 2px;
-}
-.sitebuttons {
-    opacity:0.6;
-}
-.sitebuttons:hover {
-    opacity:1;
-}
-
-.homebuttons {
-    opacity:0.6;
-}
-.homebuttons:hover {
-    opacity:1;
+.button-e:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
 
 .al-left {
@@ -131,21 +33,24 @@ td, th {
     margin-bottom: 2px;
     font-family: 'Roboto', sans-serif;
 }
-
-.button-e {
-    opacity: 1;
-    cursor: pointer;
-}
-.button-e:hover {
-    opacity: 0.8;
-    cursor: pointer;
+.nav-text-left {
+    text-align: left;
 }
 
-.block-text {
-    cursor: pointer;
-    opacity: 1;
-    margin-top: 2px;
-    padding: 5px;
+.nav-progress {
+    width: 100%;
+}
+
+.nav-button {
+    border-radius: 5px;
+}
+
+.nav-card {
+    transition: 0.3s;
+    text-align: left;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
 }
 
 .nav-hr {
@@ -154,28 +59,44 @@ td, th {
     visibility: hidden;
 }
 
-.invis {
-    display: none;
+.ch-button {
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
-.card-block-h {
-    margin-left: 15px;
-    margin-right: 5px;
-    margin-top: 5px;
+.manga-nav-card {
+    transition: 0.3s;
+    text-align: left;
     margin-bottom: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
-.card-block {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.manga-cover-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.index-links {
+.index-nav-card {
+    display: flex;
+}
+
+.index-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-manga-links {
     margin-top: 10px;
     width: 70%;
 }
+
+/* --------------------------------- */
+/* Динамичное */
+/* --------------------------------- */
 
 @media only screen and (min-width : 801px) {
     .pc-only {
@@ -183,16 +104,6 @@ td, th {
     }
     .mobile-only {
         display: none;
-    }
-    .sitebuttons {
-        width: 100%;
-    }
-    .homebuttons {
-        width: 8%;
-        padding-top: 5px;
-    }
-    table {
-        width: 150px;
     }
     .content {
         display: flex;
@@ -222,9 +133,12 @@ td, th {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .block-text {
-        width: 100%;
-        height: 15%;
+    .nav-body {
+        margin: 2%;
+        height: 100%;
+    }
+    .ch-button {
+        width: 48%;
     }
     .index-manga-one-1 {
         width: 49%;
@@ -235,12 +149,28 @@ td, th {
         width: 49%;
         float: right;
     }
-    
-    .index-cover {
-        width: 30%;
-        margin: 7px 7px 7px 0;
+    .manga-cover {
+        width: 100%;
+        margin: 7px 7px 7px 7px;
     }
-    
+    .manga-nav-content {
+        margin: 1%;
+    }
+    .manga-links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card-nav-content {
+        margin: 1%;
+    }
+    .index-manga-cover {
+        width: 30%;
+        margin: 7px 7px 7px 7px;
+    }
+    .index-logo-data {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width : 801px) and (max-width : 1090px) {
@@ -265,9 +195,6 @@ td, th {
         width: 8%;
         padding-top: 5px;
     }
-    table {
-        width: 130px;
-    }
     .pc-only {
         display: none;
     }
@@ -286,8 +213,36 @@ td, th {
         width: 100%;
         height: 30%;
     }
-    .index-cover {
+    .nav-body {
+        margin: 0%;
+        height: 100%;
+    }
+    .ch-button {
+        width: 48%;
+    }
+    .ch-button1 {
+        width: 48%;
+    }
+    .manga-cover {
         width: 30%;
-        margin: 7px 7px 7px 0;
+        margin: 7px 7px 7px 7px;
+    }
+    .manga-nav-content {
+        margin: 2%;
+    }
+    .manga-links {
+        display: flex;
+        align-items: left;
+        justify-content: left;
+    }
+    .card-nav-content {
+        margin: 2%;
+    }
+    .index-manga-cover {
+        width: 30%;
+        margin: 7px 7px 7px 7px;
+    }
+    .index-logo-data {
+        width: 50%;
     }
 }

@@ -1,58 +1,3 @@
-#hrinvis {
-    color: #000000;
-}
-
-.card {
-    background-color: rgba(16, 16, 16, 0.5);
-    padding-top: 0px rgb(255, 255, 255, 1);
-    border: 0px solid white;
-}
-.cardch {
-    background-color: rgba(16, 16, 16, 0.5);
-    padding-top: 0px rgb(255, 255, 255, 1);
-    border: 0px solid white;
-}
-
-.carda {
-    background-color: rgba(16, 16, 16, 0.5);
-    padding-top: 2px rgb(255, 255, 255, 1);
-    border: 0px solid white;
-}
-
-.card-button-ch {
-    background-color: rgba(16, 16, 16, 0.5);
-    border: 0px solid rgb(255, 255, 255);
-    color: #ffffff;
-}
-
-.theme-button {
-    background-color: rgba(16, 16, 16, 0.5);
-    border: 1px solid rgb(255, 255, 255);
-    color: #ffffff;
-}
-
-body {
-    color: white;
-    background: #2c2c2c;
-}
-
-.body-trans {
-    background: rgb(0, 0, 0, 0);
-}
-
-summary {
-    color: deeppink;
-}
-
-.hr-v {
-    color: #ffffff;
-}
-
-.hr-i {
-    color: rgb(255, 255, 255, 0);
-    height: 1px;
-}
-
 a {
     color: Pink;
 }
@@ -65,51 +10,29 @@ a:active {
     color: PaleVioletRed;
 }
 
-.title-index-nyaa {
-    color: Orchid;
-}
-
-#card {
-    box-shadow: 4px 4px 4px 0 rgb(255, 255, 255, 1);
-}
-
-#card2 {
-    border: 1px solid #ffffff;
-}
-
-.card-button {
-    background-color: rgba(16, 16, 16, 0.5);
-    border: 0px solid rgb(255, 255, 255);
-    color: #ffffff;
+body {
+    color: white;
+    background: #2c2c2c;
 }
 
 .nav-button {
     background-color: rgba(16, 16, 16, 0.5);
-    border: 0px solid rgb(255, 255, 255);
+    border: 0px;
     color: #ffffff;
 }
 
-.block-text {
+.nav-card {
     background-color: rgba(16, 16, 16, 0.5);
-    border: 0px solid rgb(255, 255, 255);
-    color: #ffffff;
+    padding-top: 0px;
+    border: 0px;
 }
 
-#maindiv {
-    background-color:  rgb(44, 44, 44);
+.manga-nav-card {
+    background-color: rgba(16, 16, 16, 0.5);
+    padding-top: 0px;
+    border: 0px;
 }
 
-
-table {
-    border-bottom: 0px solid rgba(0, 0, 0, 0);
-    background: rgba(0, 0, 0, 0);
-}
-
-th {
-    background: rgba(0, 0, 0, 0);
-    color: rgba(0, 0, 0, 0); 
-}
-
-.logo-data {
+.index-logo-data {
     content: url(/img/logo-w.png);
 }

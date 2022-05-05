@@ -55,16 +55,13 @@ function load_page_first() {
 
 function toggleFullScreen() {
     if (!document.fullscreenElement) {
-        document.getElementById('namech').remove();
-        document.getElementById('copyright').style.visibility = "collapse";
+        document.getElementById('title_ch').style.display = "none";
+        document.getElementById('copyright').style.display = "none";
         document.documentElement.requestFullscreen();
     } else {
         if (document.exitFullscreen) {
-            let title_tag = document.createElement('h2');
-            title_tag.id = "namech";
-            title_tag.textContent = document.getElementById('infotitle').textContent;
-            document.getElementById('title_ch').append(title_tag);
-            document.getElementById('copyright').style.visibility = "visible";
+            document.getElementById('title_ch').style.display = "block";
+            document.getElementById('copyright').style.display = "block";
             document.exitFullscreen();
         }
     }

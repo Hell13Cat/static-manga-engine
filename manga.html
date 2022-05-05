@@ -2,8 +2,7 @@
 <html>
     <head>
         <title>Страница манги</title>
-        <link rel="stylesheet" href="css/style.css?v=5">
-        <link rel="stylesheet" href="css/manga.css?v=5">
+        <link rel="stylesheet" href="css/style.css?v=7">
         <link rel="stylesheet" href="css/color-dark.css">
         <script type="text/javascript" src="js/manga.js"></script>
         <script type="text/javascript" src="js/theming.js"></script>
@@ -27,38 +26,42 @@
             startstylepage();
         </script>
         <div class="body-trans">
-            <progress class="progress-page" id="progress"></progress>
-            <div class="content" id="bodydiv" style="visibility: hidden;">
-                <div class="onecol">
-                    <img id="cover" class="cover">
-                    <div id="title" class="nav-button">
-                        <h1></h1>
+            <progress class="nav-progress" id="progress"></progress>
+            <div class="nav-body" id="bodydiv" style="visibility: hidden;">
+                <div class="content">
+                    <div class="onecol">
+                        <div class="nav-card manga-cover-card">
+                            <img id="cover" class="manga-cover">
+                        </div>
+                        <div class="nav-button">
+                            <p id="title" class="manga-nav-content"></h1>
+                        </div>
+                        <div class="pc-only">
+                            <a href="."><button class="nav-button button-e">Главная</button></a>
+                            <a href="setting.html"><button class="nav-button button-e">Настройки</button></a>
+                            <hr class="nav-hr">
+                            <a href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank"><button class="nav-button button-e">DCMA</button></a>
+                            <a href="https://t.me/nyaa_ninja" target="_blank"><button class="nav-button button-e">Telegram</button></a><br>
+                        </div>
                     </div>
-                    <div class="pc-only">
-                        <a class="links" href="."><button class="nav-button button-e">Главная</button></a>
-                        <a class="links" href="setting.html"><button class="nav-button button-e">Настройки</button></a>
-                        <hr class="pc-only nav-hr">
-                        <a class="links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank"><button class="nav-button button-e">DCMA</button></a>
-                        <a class="links" href="https://t.me/nyaa_ninja" target="_blank"><button class="nav-button button-e">Telegram</button></a><br>
-                    </div>
-                </div>
-                <div class="twocol">
-                    <div id="cardinfo" class="card">
-                        <p id="cardinfo1"></p>
-                        <p id="cardinfo2"></p>
-                        <p id="cardinfo3"></p>
-                    </div>
-                    <div id="cardinfo" class="card">
-                        <p>Описание:</p>
-                        <p id="descriptionmanga"></p>
-                    </div>
-                    <div id="cardinfoch" class="cardch">
-                        <p>Главы:</p>
-                        <p id="helper1" class="invis"></p>
-                    </div>
-                    <div class="copyright mobile-only">
-                        <a class="links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="links" href=".">/Главная</a> | <a class="links" href="https://t.me/nyaa_ninja" target="_blank">/Telegram</a><br>
-                        <a class="links" href="setting.html">Настройки</a>
+                    <div class="twocol">
+                        <div id="cardinfo" class="nav-text-left manga-nav-card">
+                            <p id="cardinfo1" class="manga-nav-content"></p>
+                            <p id="cardinfo2" class="manga-nav-content"></p>
+                            <p id="cardinfo3" class="manga-nav-content"></p>
+                        </div>
+                        <div id="cardinfo" class="nav-text-left manga-nav-card">
+                            <p class="manga-nav-content">Описание:</p>
+                            <p id="descriptionmanga" class="manga-nav-content"></p>
+                        </div>
+                        <div id="cardinfoch" class="manga-nav-card ">
+                            <p class="manga-nav-content manga-links">Главы:</p>
+                            <p id="helper1" class="invis"></p>
+                        </div>
+                        <div class="copyright mobile-only">
+                            <a class="links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="links" href=".">/Главная</a> | <a class="links" href="https://t.me/nyaa_ninja" target="_blank">/Telegram</a><br>
+                            <a class="links" href="setting.html">Настройки</a>
+                        </div>
                     </div>
                 </div>
             </div>
