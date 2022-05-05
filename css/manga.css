@@ -12,7 +12,6 @@
     padding-right: 5px;
     padding-top: 5px;
     margin-bottom: 5px;
-    font-family: "Comic Sans MS";
     text-align: left;
 }
 .cardch {
@@ -21,7 +20,6 @@
     padding-bottom: 5px;
     padding-right: 5px;
     padding-top: 5px;
-    font-family: "Comic Sans MS";
 }
 
 @media only screen and (min-width : 801px) { 

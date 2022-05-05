@@ -2,8 +2,8 @@
 <html>
     <head>
         <title>Loading...</title>
-        <link rel="stylesheet" href="css/style.css?v=4">
-        <link rel="stylesheet" href="css/index.css?v=4">
+        <link rel="stylesheet" href="css/style.css?v=5">
+        <link rel="stylesheet" href="css/index.css?v=5">
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript" src="js/theming.js"></script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -31,35 +31,34 @@
             startstylepage();
         </script>
         <div class="body-trans">
-            <div id="maindiv">
-                <progress class="progress-page" id="progresspage"></progress><br><h id="titlesys"></h>
-                <div id="bodydiv" style="visibility: hidden;">
-                    <div class="content">
-                        <!—noindex—>
-                        <div class="onecol">
-                            <img id="cover" class="cover">
-                            <div id="title" class="titlediv">
-                                <img class="logo-data" src="img/logo-c.png">
-                            </div>
-                            <a class="aace links button-e" href="https://discord.gg/WGktEbWTEV" target="_blank"><button class="nav-button">[Discord] Новости на Silver Town</button></a>
+            <progress class="progress-page" id="progresspage"></progress><h id="titlesys" class="invis"></h>
+            <div id="bodydiv" style="visibility: hidden;">
+                <div class="content">
+                    <!—noindex—>
+                    <div class="onecol">
+                        <img id="cover" class="cover">
+                        <div id="title" class="titlediv">
+                            <img class="logo-data" src="img/logo-c.png">
+                        </div>
+                        <a class="links" href="https://discord.gg/WGktEbWTEV" target="_blank"><button class="nav-button button-e">[Discord] Новости на Silver Town</button></a>
+                        <hr class="pc-only nav-hr">
+                        <button id="lastchbutton" class="nav-button button-e" onclick="last_ch_go()"></button>
+                        <div class="pc-only">
+                            <a class="links" href="setting.html"><button class="nav-button button-e">Настройки</button></a>
+                            <a class="links" href="news.html" target="_blank"><button class="nav-button button-e">v 0.4.2</button></a><br>
                             <hr class="pc-only nav-hr">
-                            <button id="lastchbutton" class="nav-button button-e" onclick="last_ch_go()"></button>
-                            <div class="pc-only">
-                                <a class="aace links button-e" href="setting.html"><button class="nav-button">Настройки</button></a>
-                                <hr class="pc-only nav-hr">
-                                <a class="aace links button-e" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank"><button class="nav-button">DCMA</button></a>
-                                <a class="aace links button-e" href="https://t.me/nyaa_ninja" target="_blank"><button class="nav-button">Telegram</button></a>
-                                <a class="aace links button-e" href="https://github.com/Hell13Cat/static-manga-engine" target="_blank"><button class="nav-button">GitHub</button></a><br>
-                            </div>
+                            <a class="links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank"><button class="nav-button button-e">DCMA</button></a>
+                            <a class="links" href="https://t.me/nyaa_ninja" target="_blank"><button class="nav-button button-e">Telegram</button></a>
+                            <a class="links" href="https://github.com/Hell13Cat/static-manga-engine" target="_blank"><button class="nav-button button-e">GitHub</button></a><br>
                         </div>
-                        <!—/noindex—>
-                        <div class="twocol">
-                            <p id="helper1" class="invis"></p>
-                        </div>
-                        <div class="copyright mobile-only">
-                            <a class="aace links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="aace links" href="https://t.me/nyaa_ninja" target="_blank">/Telegram</a> | <a class="aace links" href="https://github.com/Hell13Cat/static-manga-engine" target="_blank">/GitHub</a><br>
-                            <a class="aace links" href="setting.html">Настройки</a>
-                        </div>
+                    </div>
+                    <!—/noindex—>
+                    <div class="twocol">
+                        <p id="helper1" class="invis"></p>
+                    </div>
+                    <div class="copyright mobile-only">
+                        <a class="links" href="mailto:dcma@nyaa.ninja?subject=Manga Site" target="_blank">/DCMA</a> | <a class="links" href="https://t.me/nyaa_ninja" target="_blank">/Telegram</a> | <a class="links" href="https://github.com/Hell13Cat/static-manga-engine" target="_blank">/GitHub</a><br>
+                        <a class="links" href="setting.html">Настройки</a> | <a class="links" href="news.html">v 0.4.2</a>
                     </div>
                 </div>
             </div>

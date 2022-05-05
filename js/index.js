@@ -18,7 +18,7 @@ function start() {
     request.onload = function() {
         if (request.status != 200) {
             document.getElementById('titlesys').textContent = "Ошибка " + request.status + ":" + request.statusText;
-            document.getElementById('progresspage').style.visibility = "hidden";
+            document.getElementById('progresspage').style.display = "none";
         } else {
             var json_ready = request.response;
             list_splash = json_ready["splash"];
@@ -29,26 +29,30 @@ function start() {
             for (index = 0; index < list_ch.length; ++index) {
                 manga_info = list_ch[index]
                 let manga_one = document.createElement('div');
-                manga_one.className = "carda";
+                if ((index+1)%2 === 0) {
+                    manga_one.className = "carda index-manga-one-1";
+                } else {
+                    manga_one.className = "carda index-manga-one-2";
+                }
                 let manga_one_ref = document.createElement('a');
                 manga_one_ref.href = "manga.html#" + manga_info["id"];
                 manga_one_ref.textContent = manga_info["name"];
                 manga_one_ref.className = "links index-links";
                 let manga_one_cover = document.createElement('img');
                 manga_one_cover.src = manga_info["cover"];
-                manga_one_cover.className = "cover";
+                manga_one_cover.className = "index-cover";
                 manga_one.append(manga_one_cover);
                 manga_one.append(document.createElement('br'));
                 manga_one.append(manga_one_ref);
                 document.getElementById('helper1').before(manga_one);
             }
             document.getElementById('bodydiv').style.visibility = "visible";
-            document.getElementById('progresspage').style.visibility = "hidden";
+            document.getElementById('progresspage').style.display = "none";
         }
     };
     request.onerror = function() {
         document.getElementById('titlesys').textContent = "Ошибка запроса!";
-        document.getElementById('progresspage').style.visibility = "hidden";
+        document.getElementById('progresspage').style.display = "none";
     };
 }
 

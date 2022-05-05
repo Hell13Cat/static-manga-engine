@@ -8,7 +8,7 @@ function start() {
     request.onload = function() {
         if (request.status != 200) {
             document.getElementById('title').textContent = "Ошибка " + request.status + ":" + request.statusText;
-            document.getElementById('progress').style.visibility = "hidden";
+            document.getElementById('progress').style.display = "none";
         } else {
             var json_ready = request.response;
             document.getElementById("cardinfo").style.visibility = "visible";
@@ -31,7 +31,7 @@ function start() {
                 document.getElementById('helper1').before(ch_p_one);
             }
             document.getElementById('bodydiv').style.visibility = "visible";
-            document.getElementById('progress').style.visibility = "hidden";
+            document.getElementById('progress').style.display = "none";
         }
     }
     request.onerror = function() {

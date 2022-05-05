@@ -10,7 +10,7 @@ function load_page_first() {
     request.onload = function(){
         if (request.status != 200) {
             document.getElementById('titlesys').textContent = "Ошибка " + request.status + ":" + request.statusText;
-            document.getElementById('progresspage').style.visibility = "hidden";
+            document.getElementById('progresspage').style.display = "none";
         } else {
             width_page = document.documentElement.scrollWidth;
             if(width_page <= 800){
@@ -39,7 +39,7 @@ function load_page_first() {
             }
             crs_start = "img/" + chapt_ref[0] + "/" + chapt_ref[1] + "/" + json_ready["start"] + "." + json_ready["ext"];
             document.getElementById('mangapage').src = crs_start;
-            document.getElementById('progresspage').style.visibility = "hidden";
+            document.getElementById('progresspage').style.display = "none";
             var manga_page = document.getElementById('mangapage');
             document.getElementById('bodydiv').style.visibility = "visible";
             manga_page.onload = function(){
